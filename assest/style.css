@@ -7,4 +7,14 @@
 src: url(font/saira/static/Saira-Medium.ttf);
 font-family: 'english';
 font-style: normal;
+ /* استایل مربوط به بخش رزومه کار ها */
 }
+  .content{
+    transition: all 0.4s ease;
+  }
+
+  .tab-active {
+    background:linear-gradient(to right,rgb(80, 2, 136),rgb(125, 77, 167));
+    
+  } 
+/* -------------------------------------------------------------------------------------------------- */
