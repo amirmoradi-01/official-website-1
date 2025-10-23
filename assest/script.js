@@ -74,4 +74,8 @@ window.addEventListener("scroll", () => {
 
   }
 });
-
+// -----------------------------swiper js   sliderrrrr--------------------------------------------
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: 2,
+    spaceBetween: 30
+  });
