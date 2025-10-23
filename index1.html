@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="dist/output.css">
     <link rel="stylesheet" href="assest/style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -11,9 +12,9 @@
 <body class="h-2000 ">
     <!-- start header  -->
 
-    <div class="w-full h-screen bg-gradient-to-r from-black  via-slate-950 to-purple-900 py-10 px-15 ">
+    <div class="w-full h-screen bg-gradient-to-r from-black  via-slate-950 to-purple-900  px-25 ">
    <!-- start navbar -->
-       <div dir="rtl" class="w-full flex flex-row justify-between items-center " >
+       <div id="navbar" dir="rtl" class="w-full flex flex-row justify-between z-10 items-center    py-8  transation-all duration-700" >
         <div dir="ltr"class="flex flex-row justify-center items-center gap-13 text-white">
             <a href=""  class="group relative">home +
                 <div class=" w-full h-0.5 rounded-lg bg-gradient-to-r from-purple-500 to-purple-900 transition-all duration-300 group-hover:w-full" ></div>
@@ -51,18 +52,10 @@
     </div>
      <!-- end navbar -->
       <!-- start navigation header -->
-     <div class="w-full flex flex-row items-center justify-start pt-20 gap-45">
+     <div class="w-full flex flex-row items-center justify-start pt-20 gap-60">
         <div class=" w-140 flex flex-col items-start justify-center text-white  ">
             <p class="text-3xl">i am gerold </p>
-
-
             <p class="text-7xl font-extrabold mb-5 bg-gradient-to-r from-purple-900 to-purple-400  bg-clip-text text-transparent ">next level web <br>developer</p>
-
-
-
-
-
-
             <p class="font-light text-gray-500 pb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis dignissimos distinctio quidem a recusandae id hic nemo ?</p>
             <div class="flex flex-row items-center justify-start gap-5">
                 <a href="" class="text-l font-thin text-purple-950  border-1 border-purple-950 rounded-3xl p-2 transition-all duration-300 hover:border-purple-700"> Download cn<svg class="w-5 inline h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#460066" d="M352 96C352 78.3 337.7 64 320 64C302.3 64 288 78.3 288 96L288 306.7L246.6 265.3C234.1 252.8 213.8 252.8 201.3 265.3C188.8 277.8 188.8 298.1 201.3 310.6L297.3 406.6C309.8 419.1 330.1 419.1 342.6 406.6L438.6 310.6C451.1 298.1 451.1 277.8 438.6 265.3C426.1 252.8 405.8 252.8 393.3 265.3L352 306.7L352 96zM160 384C124.7 384 96 412.7 96 448L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 448C544 412.7 515.3 384 480 384L433.1 384L376.5 440.6C345.3 471.8 294.6 471.8 263.4 440.6L206.9 384L160 384zM464 440C477.3 440 488 450.7 488 464C488 477.3 477.3 488 464 488C450.7 488 440 477.3 440 464C440 450.7 450.7 440 464 440z"/></svg></a>
@@ -75,9 +68,10 @@
         </div>
         <img src="assest/img/ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="" class="w-90 h-100 object-cover border-2 border-purple-800 hover:[transform:rotate(0deg)] transition-all duration-300  rounded-lg [transform:rotate(5deg)]">
      </div>
-      <!-- end navigation header -->
     
-    </div> 
+    </div>
+      <!-- end navigation header -->
+
     <div class="bg-gradient-to-r from-black  via-slate-950 to-purple-900 bx-15 py-15">
         <div class="flex flex-row w-full justify-between items-center ">
         <span class="flex flex-row w-full justify-center items-center gap-2">
@@ -99,22 +93,19 @@
     </div>
     </div>
     <!-- end header  -->
+
+
+    <!-- start quality service  -->
 <div class="w-full  p-15 bg-slate-950">
 <div class="w-full flex flex-col items-center justify-center ">
     <p class="text-4xl font-extrabold mb-5 bg-gradient-to-r from-purple-800  to-purple-100   bg-clip-text text-transparent">My Quality service</p>
     <p class="text-gray-400 text-center w-150 mb-10">Lorem, ipsum dolor sit amet consectetur  quam quaerat sed et optio tenetur inventore, minus necessitatibus. Repellendus minus quod eligendi?</p>
 </div>
-
-
-
-
     <div id="container" class="w-full h-120 flex relative flex-col items-center justify-center">
 <div id="highlight-box" class="absolute top-0 left-0 w-[120px] h-[80px] 
                 bg-purple-600 rounded-lg shadow-md 
                 transition-transform duration-300 ease-linear
                 pointer-events-none z-1"></div>
-
-
      <span class="z-2 content-item group w-250 h-30 items-center p-5 flex flex-row justify-between  border-b-1 border-purple-950">
         <div class=" content-item flex flex-row items-center gap-5">
             <p class="text-xl font-extrabold text-purple-800 ">01</p>
@@ -152,7 +143,7 @@
     </div>
 </div>
  <!-- added your Works ----------------------------------------------------------->
-<div class="w-full flex flex-col items-center p-15 bg-gray-950" >
+<div class="w-full flex flex-col items-center p-15 [background:radial-gradient(circle,_#432476_5%,_#020618_40%)]" >
 <div class="w-full flex flex-col items-center justify-center ">
     <p class="text-4xl font-extrabold mb-5 bg-gradient-to-r from-purple-800  to-purple-100   bg-clip-text text-transparent">My Recent Works</p>
     <p class="text-gray-400 text-center w-150 mb-10">Lorem, ipsum dolor sit amet consectetur  quam quaerat sed et optio tenetur inventore, minus necessitatibus. Repellendus minus quod eligendi?</p>
@@ -164,7 +155,7 @@
     </div>
 </div>
 <div id="tab-contents" class="flex relative items-center justify-center p-4 mt-10">
-   <div id="content1" class=" content  rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   bg-slate-950 ">
+   <div id="content1" class=" content  rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   ">
     <div class="group w-120  flex items-center justify-center overflow-hidden relative">
         <img class="w-full object-contain rounded-xl"  src="assest/img/original-1516e936996237c03626627825c53e72.webp" alt="">
     <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
@@ -197,7 +188,7 @@
     </div>
     </div>
  </div>
-   <div id="content2" class="hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   bg-slate-950 ">
+   <div id="content2" class="hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex    ">
     <div class="group w-120  flex items-center justify-center overflow-hidden relative">
         <img class="w-full object-contain rounded-xl"  src="assest/img/original-1516e936996237c03626627825c53e72.webp" alt="">
     <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
@@ -230,7 +221,7 @@
     </div>
     </div>
    </div>
-   <div id="content3" class=" hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   bg-slate-950 ">
+   <div id="content3" class=" hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   ">
     <div class="group w-120  flex items-center justify-center overflow-hidden relative">
         <img class="w-full object-contain rounded-xl"  src="assest/img/original-1516e936996237c03626627825c53e72.webp" alt="">
     <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
@@ -263,7 +254,7 @@
     </div>
     </div>
    </div>
-   <div id="content4" class=" hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   bg-slate-950 ">
+   <div id="content4" class=" hidden content rounded-xl flex flex-wrap items-center justify-center gap-15 top-40 w-270  flex   ">
     <div class="group w-120  flex items-center justify-center overflow-hidden relative">
         <img class="w-full object-contain rounded-xl"  src="assest/img/original-1516e936996237c03626627825c53e72.webp" alt="">
     <div class=" w-115 absolute top-90 transation-all duration-300 group-hover:top-62 h-25 bg-gradient-to-r from-purple-900/80 to-purple-500/80 overflow-hidden  rounded-xl p-4 flex flex-col justify-center">
@@ -299,15 +290,11 @@
 
 </div>
 </div>
-<!-- ------------------------------------------------------------------------------------------------------------ -->
 
 
 
 
 
 </body>
-
-
-         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
          <script src="assest/script.js"></script>
 </html>
