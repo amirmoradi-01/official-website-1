@@ -79,3 +79,21 @@ window.addEventListener("scroll", () => {
     slidesPerView: 2,
     spaceBetween: 30
   });
+// ----- added animation for show items ..........................................................
+const reveals = document.querySelectorAll(".reveal");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.remove("opacity-0", "translate-y-10");
+        entry.target.classList.add("opacity-100", "translate-y-0");
+        observer.unobserve(entry.target); // فقط یه بار انیمیت بشه
+      }
+    });
+  },
+  { threshold: 0.4 } // وقتی ۲۰٪ از عنصر دیده شد
+);
+
+reveals.forEach((el) => observer.observe(el));
+
